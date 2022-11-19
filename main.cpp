@@ -38,8 +38,9 @@ while (name != SENTINEL)
         << totalNumofBoxesSold << endl;                
 
 
-cout << "Total money made: $ "          
-        << totalNumofBoxesSold * costofOneBox << endl; 
+cout << "Total money made: " 
+     << "$ "
+     << totalNumofBoxesSold * costofOneBox << endl; 
 
 if (numofVolunteers != 0)                           
     cout << " Average number of boxes sold by each person: "             
