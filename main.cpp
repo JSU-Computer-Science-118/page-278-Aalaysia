@@ -38,7 +38,7 @@ while (name != SENTINEL)
         << totalNumofBoxesSold << endl;                
 
 
-cout << "Total money made:$ "          
+cout << "Total money made: $ "          
         << totalNumofBoxesSold * costofOneBox << endl; 
 
 if (numofVolunteers != 0)                           
