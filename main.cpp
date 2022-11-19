@@ -15,7 +15,7 @@ int  main()
     double costofOneBox;
 
     cout << fixed << showpoint <<setprecision(2);
-    cout << "Input: " << endl;
+    cout << " " << endl;
          
 
     totalNumofBoxesSold = 0;  
