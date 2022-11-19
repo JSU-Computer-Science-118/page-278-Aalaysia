@@ -43,8 +43,7 @@ cout << "Total money made: "
      << totalNumofBoxesSold * costofOneBox << endl; 
 
 if (numofVolunteers != 0)                           
-    cout << " Average number of boxes sold by each person: "             
-            << "boxes sold by each volunteer: "             
+    cout << " Average number of boxes sold: "                          
             << totalNumofBoxesSold / numofVolunteers             
             << endl;                                   
 else
