@@ -15,7 +15,7 @@ int  main()
     double costofOneBox;
 
     cout << fixed << showpoint <<setprecision(2);
-    cout << " " << endl;
+    cout << "" << endl;
          
 
     totalNumofBoxesSold = 0;  
@@ -30,7 +30,7 @@ while (name != SENTINEL)
  cin >> name;                                    
  }                                                   
 
- cout << " ";
+ cout << "";
  cin >> costofOneBox;
  cout << endl;
  cout << endl;                                       
@@ -39,11 +39,11 @@ while (name != SENTINEL)
 
 
 cout << "Total money made: " 
-     << "$ "
+     << "$"
      << totalNumofBoxesSold * costofOneBox << endl; 
 
 if (numofVolunteers != 0)                           
-    cout << " Average number of boxes sold by each person: "                          
+    cout << "Average number of boxes sold by each person: "                          
             << totalNumofBoxesSold / numofVolunteers             
             << endl;                                   
 else
