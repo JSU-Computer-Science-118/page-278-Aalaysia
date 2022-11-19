@@ -34,7 +34,7 @@ while (name != SENTINEL)
  cin >> costofOneBox;
  cout << endl;
  cout << endl;                                       
- cout << "Output: Total number of boxes sold: "         
+ cout << "Total number of boxes sold: "         
         << totalNumofBoxesSold << endl;                
 
 
